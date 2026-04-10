@@ -1,0 +1,16 @@
+{
+  "environments": {
+    "staging": {
+      "MEMBER_URL": "https://myezra-staging.ezra.com/",
+      "INTERNAL_HUB_URL": "https://staging-hub.ezra.com/sign-in/"
+    },
+    "preprod": {
+      "MEMBER_URL": "https://myezra-preprod.ezra.com/",
+      "INTERNAL_HUB_URL": "https://preprod-hub.ezra.com/sign-in/"
+    },
+    "qa": {
+      "MEMBER_URL": "https://myezra-qa.ezra.com/",
+      "INTERNAL_HUB_URL": "https://qa-hub.ezra.com/sign-in/"
+    }
+  }
+}

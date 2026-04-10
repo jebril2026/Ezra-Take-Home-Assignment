@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Test and coverage outputs
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Playwright
+playwright-report/
+
+# Misc
+*.swp
+*.swo
+
+# Ignore local environment variables
+# I want to ignore this but I just dont see a real reason 2
+#.env
+#.env.*
