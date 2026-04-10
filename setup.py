@@ -94,8 +94,7 @@ def install_playwright_browsers() -> None:
 
 def validate_env() -> None:
     required_keys = [
-        "MEMBER_URL",
-        "INTERNAL_HUB_URL",
+        "ENV",
         "INTERNAL_HUB_EMAIL",
         "INTERNAL_HUB_PASSWORD"
     ]
